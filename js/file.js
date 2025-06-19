@@ -65,7 +65,7 @@ function signUp() {
         accList.push(account);
         saveToLocalStorage(accList);
         // ✅ التوجيه إلى صفحة تسجيل الدخول
-        window.location.href = "signin.html";
+        window.location.href = "index.html";
     }
 }
 
@@ -127,7 +127,7 @@ function logout() {
     localStorage.removeItem("loggedInEmail");
 
     // نرجّع المستخدم لصفحة تسجيل الدخول
-    window.location.href = "signin.html";
+    window.location.href = "index.html";
 }
 
 
