@@ -1,0 +1,25 @@
+body
+{
+    background-color: #24353F   ;
+}
+
+input
+{
+    background-color: #24353F!important;
+   color: white!important;
+}
+
+h1
+{
+    color: #17A2B8;
+}
+
+::placeholder {
+  color: rgb(194, 188, 188)!important; /* غيّر اللون اللي تحبه */
+  opacity: 1;    /* تأكد إنها واضحة */
+}
+
+
+.group {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}

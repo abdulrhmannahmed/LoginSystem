@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Signup</title>
+</head>
+<body>
+    
+    <div class="container my-5">
+        <div class="group text-center m-auto w-75 p-5">
+            <h1>Smart Login System</h1>
+            <input oninput="regexName()" id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+            <div id="nameError" class="text-danger mb-2"></div>
+
+            <input oninput="regexEmail()" id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+            <div id="emailError" class="text-danger mb-2"></div>
+
+            <input oninput="regexPass()" id="signupPassword" class="form-control my-3" placeholder="Enter  password" type="password">
+            <div id="passError" class="text-danger mb-2"></div>
+
+            <button onclick="signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+            <div id="dublicatedEmail" class="text-danger mb-2"></div>
+
+            <p class="text-white">You have an account? <a class="text-white" href="signin.html">Signin</a></p>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/file.js"></script>
+</body>
+</html>
